@@ -1,0 +1,13 @@
+/* General View Settings */
+
+/* Desktop View Settings */
+@media only screen and (min-width: 999px) {
+}
+
+/* Tablet View Settings */
+@media only screen and (min-width: 400px) and (max-width: 998px) {
+}
+
+/* Phone View Settings */
+@media only screen and (max-width: 399px) {
+}
