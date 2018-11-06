@@ -4,10 +4,26 @@
    THE BODY TAGS OF EACH PAGE HAVE IDS THAT
    ARE THEIR PAGE NAMES
    ________________________________________
+*/
+/*
+Colors:
+    rgba(39, 64, 96, 1) Grey-Navy
+    rgba(219, 249, 244, 1) Minty-White
+    rgba(107, 127, 215, 1) Pale-Blue
+    rgba(40, 88, 123, 1) Denim-Blue
+    rgba(125, 132, 145, 1) Soft-Grey
  */
 
 
+
 /* General View Settings */
+
+.header {
+    width: 100%;
+    background-color: rgba(39, 64, 96, 1);
+    padding: 10px;
+
+}
 
 /* Desktop View Settings */
 @media only screen and (min-width: 999px) {
@@ -19,4 +35,8 @@
 
 /* Phone View Settings */
 @media only screen and (max-width: 399px) {
+    .header {
+        position: fixed;
+        top: 0;
+    }
 }
