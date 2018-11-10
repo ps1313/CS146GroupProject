@@ -1,0 +1,100 @@
+.table_header{
+    font-weight: normal;
+}
+
+.background{
+    background-color: lightgray;
+}
+
+.table{
+    background-color: aquamarine;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    padding-bottom: 300px;
+    margin-top: 40px; 
+}
+
+nav, nav ul, nav li, nav .logo, nav .logo a, nav .nav-links a {
+    display: flex;
+}
+nav .logo a, nav .nav-links a {
+    align-items: center;
+}
+nav {
+    justify-content: space-between;
+}
+nav .logo a {
+    color: #fff;
+    font-size: 25px;
+    /* Give it some space on the left */
+    margin-left: 10px;
+    text-decoration: none;
+}
+       
+nav .nav-links a {
+    /* Picked this color from https://material.io/color */
+    background-color: #00BCD4;
+    /* Need to show no shadows before animating them in! */
+    box-shadow: 0 0 0 transparent;
+    color: #fff;
+    padding: 0 8px;
+    text-decoration: none;
+     /* Allow us to animate any properties! */
+    transition: all 0.2s ease-out;
+      
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        }
+nav .nav-links a:hover {
+    /* New, lighter background color */
+    background-color: #B2EBF2;
+    /* Just a touch of shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Make it pop out! This doesn't move neighboring elements */
+    transform: scale(1.1, 1.1);
+}
+    /* This holds our list of nav links */
+.nav-links {
+    /* Give it some space on the right */
+    margin-right: 10px;
+}
+    /* This contains each nav link a tag */
+nav li {
+    /* Each nav link will take up the entire nav height */
+     height: 30px;
+}
+    /* The list of nav links */
+nav ul {
+    /* The nav list shouldn't look like a list! */
+    list-style: none;
+}
+    /* The entire navbar itself */
+nav {
+    background-color: #80DEEA;
+    height: 48px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+        /*
+        There are a few ways of making the navbar stick to the top.
+
+        A better way to do this that keeps elements from hiding is: 
+              position: sticky;
+          top: 0;
+        This allows the navbar to stay static when the page starts moving
+        */
+}
+
+footer{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0;
+    width: 95.7%;
+    padding-left: 50px;
+}
+.table_cell_color{
+    background-color: yellow;
+}
+.font_cell{
+    color: aquamarine;
+}
