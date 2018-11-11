@@ -21,8 +21,6 @@ body {
     background-color: #80DEEA;
     height: 48px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    position: sticky;
-    top: 0;
 }
 
 .site-nav li {
@@ -124,6 +122,39 @@ body {
 /* Tablet View Settings */
 @media only screen and (min-width: 400px) and (max-width: 998px) {
 
+    .createdby{
+	justify-content: center;
+	text-align: center;
+}
+
+.createdfor{
+	justify-content: center;
+	text-align: center;
+}
+
+h1{
+	justify-content: center;
+	text-align: center;
+}
+
+.site-nav{
+	flex-direction: column;
+
+}
+
+.logo{
+	justify-content: center;
+	text-align: center;
+}
+
+.nav-links ul{
+	justify-content: center;
+	text-align: center;
+}
+
+.site-nav{
+	height: auto;
+}
 }
 
 /* Phone View Settings */
